@@ -1,0 +1,5 @@
+Server:
+- datei PhotoServer.py auf dem Server speichern
+- kopiere photo_cloud_start in den ordner /etc/init.d/
+- ausführen sudo update-rc.d /etc/init.d/photo_cloud_start defaults
+-> zum wieder löschen sudo update-rc.d -f  /etc/init.d/photo_cloud_start remove
